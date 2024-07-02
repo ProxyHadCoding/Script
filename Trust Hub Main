@@ -1,0 +1,170 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trust Hub", "DarkTheme")
+
+--// FD SCRIPTS TAB \\--
+
+local Tab = Window:NewTab("FD Scripts")
+local KnifeSection = Tab:NewSection("Grab Knife")
+local RoXploitSection = Tab:NewSection("Ro-Xploit")
+local CoolkidSection = Tab:NewSection("Coolkid")
+local Section = Tab:NewSection("Basic")
+
+
+KnifeSection:NewButton("Grab Knife V1", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SSAzNj10", true))()
+end)
+
+KnifeSection:NewButton("Grab Knife V2", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Bw7aWTBL", true))()
+end)
+
+KnifeSection:NewButton("Grab Knife V3", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/frHvA27v", true))()
+end)
+
+KnifeSection:NewButton("Grab Knife V4", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ANs9UDrn", true))()
+end)
+
+CoolkidSection:NewButton("Coolkid V4", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://157645868")[1].Source)()
+end)
+
+CoolkidSection:NewButton("Coolkid V3", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://142756431")[1].Source)()
+end)
+
+RoXploitSection:NewButton("Ro-Xploit 4.0", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://175137115")[1].Source)()
+end)
+
+RoXploitSection:NewButton("Ro-Xploit 5.0", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://288646117")[1].Source)()
+end)
+
+RoXploitSection:NewButton("Ro-Xploit 6.0", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qqgpugGF", true))()
+end)
+
+
+Section:NewButton("YourMom GUI", "ButtonInfo", function()
+    loadstring(game:GetObjects('rbxassetid://289110135')[1].Source)()
+end)
+
+
+Section:NewButton("Kappa GUI", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://277963953")[1].Source)()
+end)
+
+
+Section:NewButton("Phantom X", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://296648575")[1].Source)()
+end)
+
+
+Section:NewButton("PME's Commands", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://303367841")[1].Source)()
+end)
+
+
+Section:NewButton("Scythe", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://112829174")[1].Source)()
+end)
+
+Section:NewButton("666", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d56eg7r9"))()
+end)
+
+Section:NewButton("Lua Hammer", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/RKY5fTXh", true))()
+end)
+
+Section:NewButton("Brock", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/LvRVzzTL", true))()
+end)
+
+Section:NewButton("Bird Wings", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/zCypYHjJ", true))()
+end)
+
+Section:NewButton("Doge", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/31xeU3pX", true))()
+end)
+
+Section:NewButton("Rose Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9q2nraUs", true))()
+end)
+
+Section:NewButton("DevUzi", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/X2n20xqM", true))()
+end)
+
+--// FE SCRIPTS TAB \\--
+
+local Tab = Window:NewTab("FE Scripts")
+local HubSection = Tab:NewSection("Hub")
+local FESection = Tab:NewSection("Basic")
+
+HubSection:NewButton("BritishHub V4", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/BH%20v4%20Fix"))()
+end)
+
+HubSection:NewButton("FE Trolling GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/hsUyqA8e"))()
+end)
+
+FESection:NewButton("Coolkid Revival V2", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/theawesomari0/c00lgui/main/c00lgui"), true))()
+end)
+
+FESection:NewButton("Infinite Yield", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+FESection:NewButton("Ice Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+FESection:NewButton("Dark Dex", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+FESection:NewButton("CMD-X", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+FESection:NewButton("Pendulum Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+FESection:NewButton("Ghost Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+end)
+
+FESection:NewButton("Meepdestroyer", "ButtonInfo", function()
+    lloadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+end)
+
+FESection:NewButton("Reaper Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/C0PX7S1T'),true))()
+end)
+
+FESection:NewButton("Coolkid V2.1", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+end)
+
+FESection:NewButton("Fling GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/saMtiek2",true))()
+end)
+
+FESection:NewButton("Nameless Admin", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+FESection:NewButton("Bido Skins", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Bido%20SkinsV1.5"))()
+end)
+
+FESection:NewButton("Eclipse GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH12/RGGSEGEGS/main/Eclipse_GUI.txt"))()
+end)
